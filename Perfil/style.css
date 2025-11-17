@@ -1,0 +1,60 @@
+
+ body {
+    background-color: grey; 
+    color: green;
+    font-family: Arial, sans-serif;
+}
+
+  .main-page {
+    display: flex;  
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #1f1f1f;  
+    padding: 30px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .card-header img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;        
+    object-fit: cover;         
+    margin-bottom: 10px;
+  }
+
+  .card-header h1 {
+    font-size: 22px;
+    margin: 10px 0 5px;
+  }
+
+ .card-header p:first-of-type {
+    color: #a4ff59;           
+    font-weight: bold;
+    margin: 0;
+  }
+.card-header p:last-of-type {
+    color: #ccc;               
+    font-style: italic;
+ 
+    margin: 10px 0 20px;
+  }
+
+  /* Estilo de los enlaces */
+.social-media-link {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px ;
+    border-radius: 8px;
+  }
+
+  /* Efecto al pasar el mouse */
+ .social-media-link:hover {
+    background-color: #444;
+  }
